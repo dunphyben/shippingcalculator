@@ -1,0 +1,31 @@
+/*img.bg {
+  position: fixed;
+  opacity: 0.5;
+}*/
+
+
+#triangleList {
+  opacity:1;
+  /*display: none;*/
+  background-color: transparent;
+}
+
+.contact {
+	cursor: pointer;
+	color: #0088cc;
+}
+
+.contact:hover {
+	text-decoration: underline:
+}
+
+.container {
+  opacity: 100%;
+}
+
+.navbar-brand {
+}
+
+.navbar-brand > img {
+ padding:2px;
+}

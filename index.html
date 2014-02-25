@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-1.11.0.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Planet Express</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-default" role="navigation">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#"><img src="img/logo.png" width="32px" height="32px"> Planet Express</img></a>
+        </div>
+      </div>
+    </nav>
+    
+
+    <div class="container">
+      
+
+      <span class="jumbotron">
+        <h1>Planet Express</h1>
+        <h2>Intergallactic Delivery Services</h2>
+        <h3><em>Our crew is replaceable; your package isn't!</em></h3>
+      </span>
+
+    <div class="container">
+      <h1>Shipping Calculator</h1>
+      <div class="row">
+        <div class="col-md-3">
+          <h2>Package information:</h2>
+          <form id="new-package">
+            <div class="form-group">
+              <label for="length">length</label>
+              <input type="text" class="form-control" id="side-1" placeholder="length in inches">
+            </div>
+            <div class="form-group">
+              <label for="width">width</label>
+              <input type="text" class="form-control" id="side-2" placeholder="width in inches">
+            </div>
+            <div class="form-group">
+              <label for="height">height</label>
+              <input type="text" class="form-control" id="side-3" placeholder="height in inches">
+            </div>
+            <select id="planets">
+              <option value="oregon">Oregon</option>
+              <option value="Omicron Persei 8">Omicron Persei 8</option>
+              <option value="Planet of The Moochers">Planet of The Moochers</option>
+            </select>
+            <button type="submit" class="btn">Go!</button>
+          </form>
+    </div>
+      <div class="col-md-3" id="estimate">
+      </div>
+  </body>
+</html>
